@@ -326,21 +326,7 @@ export default function Page() {
 
           {/* File details overlay (no page scroll needed) */}
           {detailsPath && (
-            <div
-              style={{
-                position: 'absolute',
-                right: 16,
-                top: 60,
-                bottom: 16,
-                width: 'min(420px, 38vw)',
-                background: '#0e1117',
-                border: '1px solid #232833',
-                borderRadius: 10,
-                overflow: 'hidden',
-                zIndex: 20,
-                boxShadow: '0 10px 30px rgba(0,0,0,0.45)'
-              }}
-            >
+            <div>
               <FileDetails path={detailsPath} onClose={() => setDetailsPath(null)} />
             </div>
           )}

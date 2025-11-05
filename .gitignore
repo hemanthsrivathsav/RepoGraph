@@ -1,1 +1,141 @@
-node_modules/ 
+# ─────────────────────────────
+# Node / pnpm
+# ─────────────────────────────
+node_modules/
+.pnpm-store/
+.pnp.*
+.npm/
+.yarn/
+.yarnrc.yml
+*.log
+*.tmp
+
+# ─────────────────────────────
+# Next.js build artifacts
+# ─────────────────────────────
+.next/
+.next.cache/
+.next/static/
+.next/trace
+.next/analyze/
+out/
+dist/
+coverage/
+cache/
+
+# ─────────────────────────────
+# TypeScript
+# ─────────────────────────────
+*.tsbuildinfo
+
+# ─────────────────────────────
+# Environment & credentials
+# ─────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.backup
+
+# ─────────────────────────────
+# OS-specific junk
+# ─────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+desktop.ini
+
+# ─────────────────────────────
+# Editor / IDE settings
+# ─────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+
+# ─────────────────────────────
+# Testing & coverage
+# ─────────────────────────────
+coverage/
+jest-cache/
+jest-stare/
+*.lcov
+
+# ─────────────────────────────
+# Logs & runtime data
+# ─────────────────────────────
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ─────────────────────────────
+# Temporary dev files
+# ─────────────────────────────
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+
+# ─────────────────────────────
+# Build / deployment leftovers
+# ─────────────────────────────
+*.manifest.json
+*.cache
+.cache-loader/
+*.lock-wscript
+*.pid
+*.seed
+*.tgz
+*.gz
+*.zip
+*.tar
+*.tgz
+
+# ─────────────────────────────
+# IDE metadata from JetBrains / VS Code
+# ─────────────────────────────
+.idea/
+.vscode/
+.history/
+.settings/
+
+# ─────────────────────────────
+# Local previews or exports
+# ─────────────────────────────
+*.local
+*.preview
+*.export
+*.bak
+
+# ─────────────────────────────
+# Project-specific (repo-graph)
+# ─────────────────────────────
+packages/analyzer/dist/
+packages/web/.next/
+packages/web/out/
+packages/web/node_modules/
+graph.json
+
+# ─────────────────────────────
+# Misc
+# ─────────────────────────────
+*.orig
+*.rej
+*.diff
+*.patch
+".next/" 

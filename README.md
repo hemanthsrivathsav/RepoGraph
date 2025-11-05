@@ -35,7 +35,7 @@ Run the CLI to analyze your codebase and output `graph.json`.
 pnpm -F cli start --repo D:\sample-pipeline --out D:\grph-new\packages\web\public\graph.json
 
 # macOS/Linux
-pnpm -F cli start --repo ~/code/sample-pipeline --out ./packages/web/public/graph.json
+pnpm -F cli start --repo <path-to-sample-pipeline> --out ./packages/web/public/graph.json
 ```
 
 ### Step 3 — Start the web viewer
@@ -107,6 +107,8 @@ Large folders are automatically wrapped into sub-columns to prevent clipping.
 | Webpack cache warnings | Safe to ignore during development. |
 | Graph clipped or cut off | Zoom out or lower `MAX_CHILDREN_PER_GROUP` in layout config. |
 | Graph not updating | Re-run the CLI to regenerate `graph.json` and refresh the page. |
+|`pnpm: command not found`| Install pnpm globally using `npm install -g pnpm`.|
+|`EACCES: permission denied during npm install -g pnpm`| Use `sudo npm install -g pnpm` and then try running `pnpm install` again.|
 
 ---
 

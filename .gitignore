@@ -138,3 +138,4 @@ graph.json
 *.rej
 *.diff
 *.patch
+".next/" 
